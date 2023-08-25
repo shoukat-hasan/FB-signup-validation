@@ -3,7 +3,7 @@ import "./Main.css"
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
-import Mark from '../../../assets/images/mark.svg'
+
 
 const Main = () => {
     const [userFName, setUserFName] = useState('');
